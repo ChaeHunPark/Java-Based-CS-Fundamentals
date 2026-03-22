@@ -25,9 +25,10 @@
 - **실습:** `Strategy Pattern`을 활용한 복합 액션 시스템 및 'Tell, Don't Ask' 원칙 기반 리팩토링
 - [상세 내용 보기 👉](./Architecture/src/README.md)
 
-### 📂 [Network](./Network) `🏗️ Planned`
-- **핵심:** TCP/IP 4계층, HTTP/HTTPS 프로토콜 및 패킷 흐름 분석
-- **목표:** 소켓 프로그래밍을 통한 네트워크 통신의 근본적 이해
+### 📂 [Network](./Network) `🔥 Learning`
+- **핵심:** TCP/IP 4계층, HTTP 프로토콜 규격 및 패킷 흐름 분석
+- **실습:** Java `ServerSocket` 기반 HTTP 웹 서버 구현 및 Query Parameter 직접 파싱
+- [상세 내용 보기 👉](./Network/src/README.md)
 
 ### 📂 [Database](./Database) `🏗️ Planned`
 - **핵심:** 데이터 저장 구조(B-Tree), Index 최적화, Transaction 격리 수준
@@ -42,6 +43,8 @@
 ---
 
 ## 📈 최근 학습 기록 (Logs)
+- **[2026-03-23]** 🌐 **Network:** Step 01~03 완료. TCP 3-Way Handshake 분석 및 `@RequestParam`의 근본 원리(Query Parameter 수동 파싱) 증명.
+- **[2026-03-22]** 🏗️ **Architecture:** Step 04 (Observer 패턴) 완료. 이벤트 기반 시스템 구축을 통한 객체 간 느슨한 결합(Loose Coupling) 구현 및 증명.
 - **[2026-03-20]** 🏗️ **Architecture:** Step 02~03 (Factory Method, Strategy) 완료. 유연한 무기/이동 시스템 설계 및 리팩토링.
 - **[2026-03-20]** 🍎 **OS:** Step 04~06 완료. Race Condition 해결 전략 및 데드락 발생 조건 실습.
 - **[2026-03-02]** 🍎 **OS:** Step 01~03 (메모리, 스레드, 스케줄링) 원리 파악 및 실습 완료.
