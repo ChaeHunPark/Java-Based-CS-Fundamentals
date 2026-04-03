@@ -27,7 +27,7 @@
 
 ### 📂 [Network](./Network) `🔥 Learning`
 - **핵심:** TCP/IP 4계층, HTTP 프로토콜 규격 및 패킷 흐름 분석
-- **실습:** Java `ServerSocket` 기반 HTTP 웹 서버 구현 및 Query Parameter 직접 파싱
+- **실습:** Java `ServerSocket` 기반 Multi-Thread 웹 서버 구현 및 동시성(Concurrency) 증명
 - [상세 내용 보기 👉](./Network/src/README.md)
 
 ### 📂 [Database](./Database) `🏗️ Planned`
@@ -43,13 +43,13 @@
 ---
 
 ## 📈 최근 학습 기록 (Logs)
+- **[2026-04-03]** 🌐 **Network:** Step 04 완료. Multi-Thread 기반 동시 접속 처리 구현 및 Context Switching(TCB) 비용과 Thrashing 개념 학습.
 - **[2026-03-23]** 🌐 **Network:** Step 01~03 완료. TCP 3-Way Handshake 분석 및 `@RequestParam`의 근본 원리(Query Parameter 수동 파싱) 증명.
 - **[2026-03-22]** 🏗️ **Architecture:** Step 04 (Observer 패턴) 완료. 이벤트 기반 시스템 구축을 통한 객체 간 느슨한 결합(Loose Coupling) 구현 및 증명.
 - **[2026-03-20]** 🏗️ **Architecture:** Step 02~03 (Factory Method, Strategy) 완료. 유연한 무기/이동 시스템 설계 및 리팩토링.
 - **[2026-03-20]** 🍎 **OS:** Step 04~06 완료. Race Condition 해결 전략 및 데드락 발생 조건 실습.
-- **[2026-03-02]** 🍎 **OS:** Step 01~03 (메모리, 스레드, 스케줄링) 원리 파악 및 실습 완료.
 
 ---
 
 ### 💬 엔지니어링 노트
-> "비행기 위에서는 공격할 수 없다"는 로직을 짤 때 `instanceof` 대신 인터페이스에 상태를 묻는 방식을 고민합니다. 또한 멀티스레드 환경에서 데이터가 꼬이는 원인을 OS 수준에서 분석하고 `synchronized`로 제어해 봅니다. 이런 깊은 탐구가 단단한 아키텍처의 시작이라 믿습니다.
+> "비행기 위에서는 공격할 수 없다"는 로직을 짤 때 `instanceof` 대신 인터페이스에 상태를 묻는 방식을 고민합니다. 또한 멀티스레드 환경에서 데이터가 꼬이는 원인을 OS 수준에서 분석하고 `synchronized`로 제어해 봅니다. 최근에는 서버의 동시성 처리를 위해 스레드를 생성하며 발생하는 컨텍스트 스위칭 비용과 자원 관리의 중요성을 체감하고 있습니다. 이런 깊은 탐구가 단단한 아키텍처의 시작이라 믿습니다.
